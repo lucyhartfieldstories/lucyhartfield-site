@@ -383,6 +383,12 @@
     .join-hero { padding: 1.2rem 1.1rem 1rem; }
   }
 
+
+  /* Keep MailerLite's anti-spam field hidden (it normally lives in their stylesheet) */
+  .ml-block-form .ml-form-fieldRow:not(:has(#ml-name)):not(:has(#ml-email)) { display: none !important; }
+  .ml-block-form input:not(#ml-name):not(#ml-email):not([type="hidden"]) { position: absolute !important; left: -9999px !important; width: 1px !important; height: 1px !important; opacity: 0 !important; }
+  @media (max-width: 820px) { .split .arch { max-width: 260px; margin-inline: auto; } }
+
   /* Footer */
   footer.site .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
   footer.site nav a { color: var(--ink-soft); margin-right: 1rem; }
