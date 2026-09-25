@@ -391,6 +391,19 @@
 
   .tropes li.main { background: var(--berry); border-color: var(--berry); color: var(--paper); font-weight: 700; }
 
+  /* Letters archive */
+  .letter-list { list-style: none; padding: 0; margin: 0; }
+  .letter-list li { border-top: 1px solid var(--blush); padding: 1.5rem 0; }
+  .letter-list li:first-child { border-top: 0; padding-top: 0; }
+  .letter-list .date { display: block; font-weight: 700; color: var(--vine); font-size: 0.95rem; margin-bottom: 0.3rem; }
+  .letter-list a.title { font-family: var(--display); font-size: clamp(1.6rem, 3.5vw, 2.1rem); color: var(--ink); text-decoration: none; }
+  .letter-list a.title:hover { color: var(--berry); }
+  .letter-list p { margin: 0.4rem 0 0; color: var(--ink-soft); }
+  .empty { background: #FBEAED; border-radius: 16px; padding: 1.5rem; color: var(--ink-soft); }
+  .letter-body img { width: 100%; height: auto; border-radius: 14px; margin: 0.5rem 0 1.5rem; }
+  .members-only { background: #FBEAED; border-left: 4px solid var(--berry); border-radius: 8px; padding: 1.1rem 1.3rem; margin: 1.5rem 0; }
+  .members-only strong { color: var(--berry-deep); }
+
   /* Footer */
   footer.site .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
   footer.site nav a { color: var(--ink-soft); margin-right: 1rem; }
