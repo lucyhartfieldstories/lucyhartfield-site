@@ -32,8 +32,8 @@
   (function next(i){
     if(i>=queue.length) return;
     var card=queue[i], t=card.dataset.title, au=card.dataset.author, k=t+"|"+au;
-    openlib(t,au).catch(function(){ return null; })
-      .then(function(info){ return info || google(t,au).catch(function(){ return null; }); })
+    google(t,au).catch(function(){ return null; })
+      .then(function(info){ return info || openlib(t,au).catch(function(){ return null; }); })
       .then(function(info){ if(info){ cache[k]=info; save(); apply(card, info); } })
       .then(function(){ setTimeout(function(){ next(i+1); }, 350); });
   })(0);
