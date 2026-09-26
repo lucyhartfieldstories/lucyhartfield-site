@@ -404,6 +404,107 @@
   .members-only { background: #FBEAED; border-left: 4px solid var(--berry); border-radius: 8px; padding: 1.1rem 1.3rem; margin: 1.5rem 0; }
   .members-only strong { color: var(--berry-deep); }
 
+
+  /* Sign hunt */
+  .lh-sign { display: inline-grid; place-items: center; width: 1.6rem; height: 1.6rem; padding: 0; margin: 0 0 -0.35rem 0.35rem; border: 0; background: transparent; cursor: pointer; vertical-align: baseline; opacity: 0.85; transition: transform .15s; }
+  .lh-sign svg { width: 100%; height: 100%; }
+  .lh-sign:hover { transform: rotate(-8deg) scale(1.1); opacity: 1; }
+  .lh-sign.found svg path:first-child { fill: #8BC49A; }
+  .lh-sign:focus-visible { outline: 3px solid var(--vine); outline-offset: 3px; border-radius: 6px; }
+  .lh-toast { position: fixed; left: 50%; bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--paper); padding: 0.8rem 1.2rem; border-radius: 999px; font-weight: 700; box-shadow: 0 8px 24px rgba(42,36,64,0.25); z-index: 50; max-width: min(92vw, 30rem); text-align: center; }
+  .lh-toast a { color: #F6D6DC; }
+  .hunt-progress { display: flex; gap: 0.6rem; margin: 1rem 0 1.5rem; }
+  .hunt-progress span { width: 2.4rem; height: 2.4rem; display: grid; place-items: center; border-radius: 8px; background: var(--blush); color: var(--ink-soft); font-weight: 700; }
+  .hunt-progress span.on { background: #F5C518; color: var(--ink); }
+  .hunt-reward { display: none; background: #FBEAED; border-left: 4px solid var(--berry); border-radius: 8px; padding: 1.2rem 1.4rem; margin: 1rem 0 1.5rem; }
+  .hunt-reward.open { display: block; }
+  .hunt-reward p { margin: 0 0 0.8rem; font-family: var(--display); font-size: 1.35rem; line-height: 1.35; color: var(--berry-deep); }
+  .hunt-reward p.who { font-family: var(--body); font-size: 1rem; color: var(--ink-soft); }
+  .hunt-hint { color: var(--ink-soft); }
+
+  /* Kathleen & Joel wedding site */
+  .wed-hero { background: var(--blush); text-align: center; padding: clamp(3rem, 8vw, 5.5rem) 0; }
+  .wed-hero .mono { font-family: var(--display); font-size: clamp(1.4rem, 3vw, 1.8rem); color: var(--vine); margin: 0 0 0.6rem; }
+  .wed-hero h1 { font-family: var(--display); font-weight: 400; color: var(--berry-deep); font-size: clamp(3rem, 9vw, 6rem); line-height: 0.95; margin: 0 0 1rem; }
+  .wed-hero p { max-width: 46ch; margin: 0 auto; font-size: 1.15rem; }
+  .wed-hero .fiction { display: inline-block; margin-top: 1.25rem; font-size: 0.9rem; color: var(--ink-soft); background: var(--paper); border-radius: 999px; padding: 0.4rem 0.9rem; }
+  .wed-section { padding: clamp(2.5rem, 6vw, 4rem) 0; border-top: 1px solid var(--blush); }
+  .wed-section h2 { text-align: center; }
+  .wed-section .prose { margin-inline: auto; text-align: center; }
+  .party { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1.25rem; }
+  .party li { background: var(--card, #fff); border: 1px solid var(--blush); border-radius: 16px; padding: 1.25rem; }
+  .party h3 { margin: 0 0 0.25rem; font-size: 1.4rem; }
+  .party .role { color: var(--vine); font-weight: 700; font-size: 0.9rem; display: block; margin-bottom: 0.5rem; }
+  .party p { margin: 0; color: var(--ink-soft); font-size: 1rem; }
+  .details { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem 2rem; text-align: center; }
+  .details strong { display: block; font-family: var(--display); font-weight: 400; font-size: 1.3rem; margin-bottom: 0.2rem; }
+  .details span { color: var(--ink-soft); }
+  .registry { list-style: none; padding: 0; margin: 0; max-width: 40rem; margin-inline: auto; }
+  .registry li { border-top: 1px solid var(--blush); padding: 0.8rem 0; display: flex; justify-content: space-between; gap: 1rem; }
+  .registry li:first-child { border-top: 0; }
+  .registry .status { color: var(--vine); font-weight: 700; white-space: nowrap; }
+  .wed-faq dt { font-weight: 700; margin-top: 1rem; }
+  .wed-faq dd { margin: 0.2rem 0 0; color: var(--ink-soft); }
+
+
+  /* Explore grid */
+  .explore { background: #FBEAED; }
+  .explore ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; }
+  .explore a { display: block; background: var(--paper); border: 1px solid var(--blush); border-radius: 16px; padding: 1.2rem 1.3rem; text-decoration: none; color: var(--ink); height: 100%; }
+  .explore a:hover { border-color: var(--berry); }
+  .explore h3 { margin: 0 0 0.3rem; font-size: 1.35rem; color: var(--berry-deep); }
+  .explore p { margin: 0; color: var(--ink-soft); font-size: 1rem; }
+
+  /* Quiz */
+  .quiz { max-width: 44rem; }
+  .q { display: none; }
+  .q.on { display: block; }
+  .q h3 { font-size: 1.6rem; margin: 0 0 1rem; }
+  .q .step { color: var(--vine); font-weight: 700; font-size: 0.9rem; }
+  .opts { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.6rem; }
+  .opts button { width: 100%; text-align: left; font: 500 1.05rem/1.45 var(--body); padding: 0.9rem 1.1rem; border-radius: 14px; border: 1.5px solid var(--vine); background: var(--card, #fff); color: var(--ink); cursor: pointer; }
+  .opts button:hover { border-color: var(--berry); background: #FBEAED; }
+  .result { display: none; }
+  .result.on { display: block; }
+  .result .who { font-family: var(--display); font-size: clamp(2rem, 5vw, 3rem); color: var(--berry-deep); margin: 0 0 0.6rem; }
+  .result .quote { border-left: 3px solid var(--berry); padding-left: 1rem; font-family: var(--display); font-size: 1.4rem; color: var(--berry-deep); margin: 1rem 0; }
+  .share-row { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 1.2rem 0; }
+
+  /* Tasting */
+  .cakes { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; }
+  .cakes button { width: 100%; text-align: left; font: inherit; border: 1.5px solid var(--vine); border-radius: 16px; padding: 1.2rem; background: var(--card, #fff); cursor: pointer; color: var(--ink); }
+  .cakes button:hover, .cakes button.on { border-color: var(--berry); background: #FBEAED; }
+  .cakes strong { display: block; font-family: var(--display); font-weight: 400; font-size: 1.4rem; margin-bottom: 0.3rem; }
+  .cakes span { color: var(--ink-soft); font-size: 0.95rem; }
+  .plate { display: none; background: #FBEAED; border-left: 4px solid var(--berry); border-radius: 8px; padding: 1.2rem 1.4rem; margin-top: 1.5rem; }
+  .plate.on { display: block; }
+  .plate .line { font-family: var(--display); font-size: 1.35rem; color: var(--berry-deep); margin: 0 0 0.6rem; }
+
+  /* Kat's text */
+  .phone { max-width: 24rem; margin: 0 auto; background: var(--card, #fff); border: 1px solid var(--blush); border-radius: 28px; padding: 1.2rem 1rem 1.4rem; }
+  .phone .top { text-align: center; font-weight: 700; color: var(--ink-soft); font-size: 0.9rem; border-bottom: 1px solid var(--blush); padding-bottom: 0.6rem; margin-bottom: 1rem; }
+  .bubble { background: #E9E9EE; color: var(--ink); border-radius: 18px 18px 18px 4px; padding: 0.7rem 0.9rem; margin: 0.4rem 2.5rem 0.4rem 0; font-size: 1rem; line-height: 1.45; }
+  .bubble.me { background: var(--berry); color: var(--paper); border-radius: 18px 18px 4px 18px; margin: 0.4rem 0 0.4rem 2.5rem; }
+  .stamp { font-size: 0.8rem; color: var(--ink-soft); text-align: center; margin: 0.6rem 0 0.2rem; }
+  .stamp.right { text-align: right; }
+
+  /* Lila's list */
+  .todo { list-style: none; padding: 0; margin: 0; max-width: 34rem; }
+  .todo li { display: flex; gap: 0.7rem; align-items: baseline; padding: 0.45rem 0; border-bottom: 1px solid var(--blush); }
+  .todo .box { width: 1.2rem; height: 1.2rem; border: 2px solid var(--berry); border-radius: 5px; flex: 0 0 auto; position: relative; top: 0.15rem; }
+  .todo li.done .box { background: var(--berry); }
+  .todo li.done .box::after { content: ""; position: absolute; left: 0.3rem; top: 0.05rem; width: 0.3rem; height: 0.6rem; border: solid var(--paper); border-width: 0 2px 2px 0; transform: rotate(45deg); }
+  .todo li.done span { text-decoration: line-through; color: var(--ink-soft); }
+  .todo li.now span { font-weight: 700; }
+  .todo .tag { font-size: 0.8rem; color: var(--vine); font-weight: 700; margin-left: auto; white-space: nowrap; }
+
+  /* 404 wet floor sign */
+  .wetfloor { width: 220px; margin: 2rem auto; text-align: center; }
+  .wetfloor .sign { background: #F5C518; color: var(--ink); border: 4px solid var(--ink); border-radius: 10px 10px 4px 4px; padding: 1.2rem 0.8rem; font-weight: 800; letter-spacing: 0.04em; clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%); }
+  .wetfloor .sign small { display: block; font-weight: 700; font-size: 0.8rem; margin-bottom: 0.4rem; }
+  .wetfloor .sign strong { display: block; font-size: 1.5rem; }
+  .wetfloor .base { height: 10px; background: var(--ink); border-radius: 0 0 6px 6px; }
+
   /* Footer */
   footer.site .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
   footer.site nav a { color: var(--ink-soft); margin-right: 1rem; }
