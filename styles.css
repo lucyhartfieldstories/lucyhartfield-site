@@ -531,6 +531,20 @@
   .cover a { display: block; height: 100%; }
   @media (max-width: 480px) { .shelf li.bk-card { grid-template-columns: 4.2rem 1fr; } .cover { width: 4.2rem; } }
 
+
+  /* Reading Room grid */
+  .rr-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1.4rem; }
+  .rr-grid a { display: block; background: var(--card, #fff); border: 1px solid var(--blush); border-radius: 18px; padding: 1.2rem 1.2rem 1.3rem; text-decoration: none; color: var(--ink); height: 100%; transition: transform .15s, border-color .15s; }
+  .rr-grid a:hover { transform: translateY(-3px); border-color: var(--berry); }
+  .fan { display: flex; align-items: flex-end; height: 7.4rem; margin-bottom: 1rem; padding-left: 0.3rem; }
+  .fan img { width: 4.6rem; height: 6.9rem; object-fit: cover; border-radius: 5px; box-shadow: 0 6px 14px rgba(42,36,64,0.22); margin-left: -1.4rem; transform: rotate(-4deg); background: var(--blush); }
+  .fan img:first-child { margin-left: 0; transform: rotate(-8deg); }
+  .fan img:nth-child(3) { transform: rotate(2deg); }
+  .fan img:nth-child(4) { transform: rotate(7deg); }
+  .rr-grid h3 { margin: 0 0 0.35rem; font-size: 1.35rem; color: var(--berry-deep); line-height: 1.2; }
+  .rr-grid p { margin: 0; color: var(--ink-soft); font-size: 0.98rem; }
+  .rr-grid .count { display: inline-block; margin-top: 0.7rem; font-size: 0.85rem; font-weight: 700; color: var(--vine); }
+
   /* Footer */
   footer.site .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
   footer.site nav a { color: var(--ink-soft); margin-right: 1rem; }
