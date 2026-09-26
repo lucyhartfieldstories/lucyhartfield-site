@@ -7,7 +7,7 @@
   function save(){ try { localStorage.setItem("lh-covers3", JSON.stringify(cache)); } catch(e) {} }
   function apply(card, info){
     if(!info || !info.thumb) return;
-    var img=document.createElement("img"); img.alt="Cover of "+card.dataset.title; img.loading="lazy";
+    var img=document.createElement("img"); img.alt="Cover of "+card.dataset.title; img.decoding="async";
     img.onload=function(){ if(img.naturalWidth<20) return; var c=card.querySelector(".cover"); c.innerHTML="";
       var a=document.createElement("a"); a.href=info.link||"#"; a.target="_blank"; a.rel="noopener"; a.appendChild(img); c.appendChild(a); };
     img.src=info.thumb;
