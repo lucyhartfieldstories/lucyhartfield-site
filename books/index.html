@@ -29,7 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Karla:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css?v=4">
+<link rel="stylesheet" href="/styles.css?v=6">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -148,9 +148,29 @@
         </blockquote>
         <blockquote class="excerpt" style="margin-top:2rem">
           <p>"I'm not totally illiterate, just oblivious."</p>
-          <footer>Nate, in his defense</footer>
+          <footer>Nate, in his defense <button type="button" class="lh-sign" data-sign="2" aria-label="A hidden caution sign (Caution: door opens outward)" title="There are signs along the way, if you prove able to read them."><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 37 20 20 37 3 20Z" fill="#F5C518" stroke="#2A2440" stroke-width="2.5"/><path d="M20 11v11" stroke="#2A2440" stroke-width="3.5" stroke-linecap="round"/><circle cx="20" cy="28.5" r="2.2" fill="#2A2440"/></svg></button></footer>
         </blockquote>
       </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="wrap">
+      <h2>Lila's to-do list (Lucy's edition)</h2>
+      <p class="note">Lila writes to-do lists with things she already finished, just to cross them off. So does Lucy. Here's where the book stands.</p>
+      <ul class="todo">
+        <li class="done"><span class="box"></span><span>Write chapter one (the cake disaster)</span></li>
+        <li class="done"><span class="box"></span><span>Write chapter two (please copy me on all calendar invites)</span></li>
+        <li class="done"><span class="box"></span><span>Write chapter three (Nate's side of the story)</span></li>
+        <li class="done"><span class="box"></span><span>Rework the puzzle (goodbye enemies, hello instant chemistry)</span></li>
+        <li class="now"><span class="box"></span><span>Chapter four</span><span class="tag">In progress</span></li>
+        <li><span class="box"></span><span>The one-bed hotel run-in</span></li>
+        <li><span class="box"></span><span>Finish the first draft</span></li>
+        <li><span class="box"></span><span>Pick a title (finally)</span></li>
+        <li><span class="box"></span><span>Edits, edits, edits</span></li>
+        <li><span class="box"></span><span>Cover reveal</span></li>
+        <li><span class="box"></span><span>Advance copies to newsletter readers</span></li>
+        <li><span class="box"></span><span>Launch day</span></li>
+      </ul>
     </div>
   </section>
   <section id="join" class="letters">
@@ -201,7 +221,7 @@
 </main>
 <footer class="site">
   <div class="wrap">
-    <span>&copy; 2026 Lucy Hartfield. Romance author. <a href="/faq/">FAQ</a> <a href="/privacy/">Privacy</a></span>
+    <span>&copy; 2026 Lucy Hartfield. Romance author. <a href="/faq/">FAQ</a> <a href="/quiz/">Lila or Nate?</a> <a href="/tasting/">The tasting</a> <a href="/kathleen-and-joel/">Kathleen &amp; Joel's wedding</a> <a href="/signs/">The sign hunt</a> <a href="/privacy/">Privacy</a></span>
     <nav aria-label="Social"><a href="https://www.tiktok.com/@lucyhartfieldstories" rel="me">TikTok</a> <a href="https://www.instagram.com/lucyhartfieldstories" rel="me">Instagram</a> <a href="https://www.threads.com/@lucyhartfieldstories" rel="me">Threads</a> <a href="https://bsky.app/profile/lucyhartfield.com" rel="me">Bluesky</a> <a href="https://www.pinterest.com/lucyhartfieldstories" rel="me">Pinterest</a> <a href="https://www.youtube.com/@LucyHartfield" rel="me">YouTube</a> <a href="https://www.goodreads.com/user/show/204525064-lucy-hartfield" rel="me">Goodreads</a> <a href="https://app.thestorygraph.com/profile/lucyhartfield" rel="me">StoryGraph</a></nav>
   </div>
 </footer>
@@ -216,5 +236,6 @@
 <script>
   fetch("https://assets.mailerlite.com/jsonp/2654190/forms/199364718873282166/takel");
 </script>
+<script src="/signs.js?v=1" defer></script>
 </body>
 </html>
