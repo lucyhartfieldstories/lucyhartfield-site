@@ -505,6 +505,23 @@
   .wetfloor .sign strong { display: block; font-size: 1.5rem; }
   .wetfloor .base { height: 10px; background: var(--ink); border-radius: 0 0 6px 6px; }
 
+
+  /* Reading Room */
+  .rr-list { list-style: none; padding: 0; margin: 0; }
+  .rr-list li { border-top: 1px solid var(--blush); padding: 1.4rem 0; }
+  .rr-list li:first-child { border-top: 0; padding-top: 0; }
+  .rr-list a.title { font-family: var(--display); font-size: clamp(1.5rem, 3.4vw, 2rem); color: var(--ink); text-decoration: none; }
+  .rr-list a.title:hover { color: var(--berry); }
+  .rr-list p { margin: 0.4rem 0 0; color: var(--ink-soft); }
+  .shelf { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+  .shelf li { padding: 1rem 0; border-top: 1px solid var(--blush); }
+  .shelf li:first-child { border-top: 0; }
+  .shelf .bk { font-family: var(--display); font-size: 1.35rem; color: var(--ink); }
+  .shelf .au { color: var(--ink-soft); }
+  .shelf .rate { display: inline-block; margin-left: 0.5rem; color: var(--berry); font-weight: 700; font-size: 0.9rem; }
+  .shelf p { margin: 0.35rem 0 0; color: var(--ink-soft); }
+  .rr-note { background: #FBEAED; border-radius: 12px; padding: 1rem 1.2rem; color: var(--ink-soft); font-size: 1rem; }
+
   /* Footer */
   footer.site .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
   footer.site nav a { color: var(--ink-soft); margin-right: 1rem; }
