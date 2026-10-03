@@ -3,21 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lucy Hartfield | Romance Author</title>
-<meta name="description" content="Romance author Lucy Hartfield writes warm, witty rom-coms full of banter and big feelings. Her debut, set in the world of weddings, is coming soon.">
+<title>The Cake Tasting at Crumb Together Cafe | Lucy Hartfield</title>
+<meta name="description" content="Pick your slice at Crumb Together Cafe, the bakery from Lucy Hartfield's debut rom-com, and see what it says about you.">
 <meta name="author" content="Lucy Hartfield">
-<link rel="canonical" href="https://lucyhartfield.com/">
+<link rel="canonical" href="https://lucyhartfield.com/tasting/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Lucy Hartfield | Romance Author">
-<meta property="og:description" content="Romance author Lucy Hartfield writes warm, witty rom-coms full of banter and big feelings. Her debut, set in the world of weddings, is coming soon.">
-<meta property="og:url" content="https://lucyhartfield.com/">
+<meta property="og:title" content="The Cake Tasting at Crumb Together Cafe | Lucy Hartfield">
+<meta property="og:description" content="Pick your slice at Crumb Together Cafe, the bakery from Lucy Hartfield's debut rom-com, and see what it says about you.">
+<meta property="og:url" content="https://lucyhartfield.com/tasting/">
 <meta property="og:image" content="https://lucyhartfield.com/share.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:site_name" content="Lucy Hartfield">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Lucy Hartfield | Romance Author">
-<meta name="twitter:description" content="Romance author Lucy Hartfield writes warm, witty rom-coms full of banter and big feelings. Her debut, set in the world of weddings, is coming soon.">
+<meta name="twitter:title" content="The Cake Tasting at Crumb Together Cafe | Lucy Hartfield">
+<meta name="twitter:description" content="Pick your slice at Crumb Together Cafe, the bakery from Lucy Hartfield's debut rom-com, and see what it says about you.">
 <meta name="twitter:image" content="https://lucyhartfield.com/share.jpg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
@@ -66,13 +66,30 @@
       "publisher": {
         "@id": "https://lucyhartfield.com/#lucy"
       }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lucyhartfield.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "The cake tasting",
+          "item": "https://lucyhartfield.com/tasting/"
+        }
+      ]
     }
   ]
 }
 </script>
 </head>
 <body>
-<nav class="topnav home" aria-label="Main">
+<nav class="topnav" aria-label="Main">
   <div class="wrap">
     <a class="brand" href="/">Lucy Hartfield</a>
     <ul>
@@ -85,18 +102,29 @@
     </ul>
   </div>
 </nav>
-<header class="hero">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="hero-id">
-        <h1><span>Lucy</span><span>Hartfield</span></h1>
-        <img class="hero-avatar" src="/lucy-hartfield.jpg" alt="Romance author Lucy Hartfield" width="120" height="120">
+<header class="pagehead">
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> / The cake tasting</div>
+    <h1>Crumb Together Cafe</h1>
+    <p>Welcome to the tasting. Four cakes, one very late guest, and a wet floor sign somewhere behind you. Pick your slice.</p>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <ul class="cakes" id="cakes"><li><button type="button" data-c="traditional"><strong>Traditional wedding cake</strong><span>Classic, elegant, never out of style</span></button></li><li><button type="button" data-c="carrot"><strong>Carrot cake</strong><span>For the couple who likes a little spice</span></button></li><li><button type="button" data-c="marble"><strong>Marbled cake with raspberry filling</strong><span>Handle with care near swinging doors</span></button></li><li><button type="button" data-c="redvelvet"><strong>Red velvet</strong><span>Reserved for the late guest</span></button></li></ul>
+      <div id="plates"><div class="plate" data-p="traditional"><p class="line">Lila, plating the traditional cake first, because some choices don't need a debate.</p><p>You like a plan that works. Lila set this one in front of the bride and groom for a reason.</p></div><div class="plate" data-p="carrot"><p class="line">"See, Joel, I told you it wasn't a scam." Kathleen, mid-bite.</p><p>You're warm, a little unexpected, and impossible not to like. Kathleen cut into this one first.</p></div><div class="plate" data-p="marble"><p class="line">"It's a bit of ceramic, and a whole lot of frosting." Nate, surveying the damage.</p><p>You have layers. Also, statistically, you are the cake most likely to end up on someone's shirt.</p></div><div class="plate" data-p="redvelvet"><p class="line">"This final cake is red velvet," Lila stammered, the plate slipping the last inch to the table.</p><p>You showed up late, sleeves suspiciously wet, and somehow still charmed the table. This was Nate's plate.</p></div></div>
+      <p class="note" style="margin-top:1.5rem">Staff only beyond the kitchen door. Yes, Lila, that means you.</p>
+    </div>
+  </section>
+  <section id="join" class="letters">
+    <div class="wrap letters-grid">
+      <div>
+        <h2>Save your seat at the table</h2>
+        <p>Sneak peeks from the book, including the rest of this tasting, go to newsletter readers first.</p>
       </div>
-      <p class="lede">Warm, witty romance full of banter, big feelings, and the people who feel like home.</p>
-      <div id="join" class="join-hero">
-        <h2>Join Letters from Hartfield</h2>
-        <p>A little book club in your inbox. Get sneak peeks from the debut, help shape small story details, and be first in line for advance copies.</p>
-        <div id="mlb2-46243955" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-46243955">
+      <div id="mlb2-46243955" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-46243955">
   <div class="ml-form-embedWrapper embedForm">
     <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
       <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2654190/forms/199364718873282166/subscribe" data-code="" method="post" target="_blank">
@@ -133,96 +161,15 @@
     </div>
   </div>
 </div>
-      </div>
-    </div>
-    <figure class="arch">
-      <img src="/lucy-hartfield.jpg" alt="Romance author Lucy Hartfield smiling, wearing a sheer top embroidered with red roses" width="896" height="1076">
-    </figure>
-  </div>
-</header>
-
-<main>
-  <section id="debut" class="debut">
-    <div class="wrap debut-grid">
-      <div class="prose">
-        <span class="status">Debut novel, coming soon</span>
-        <h2>She plans every detail of other people's happily ever afters.</h2>
-        <p>Lila is the wedding planner who sees everything coming, except the stranger who walks straight into her tray of tasting cakes. His name is Nate. He's late, he's glued to his phone, and he's the bride's big brother, which means he'll be at every fitting, every dinner, and every last-minute crisis until the big day.</p>
-        <p>He thinks marriage is a business agreement. She believes in love with her whole heart. One of them is going to have to be wrong.</p>
-        <p><a href="/books/">More about the book</a> <button type="button" class="lh-sign" data-sign="1" aria-label="A hidden caution sign (Caution: door opens outward)" title="There are signs along the way, if you prove able to read them."><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 37 20 20 37 3 20Z" fill="#F5C518" stroke="#2A2440" stroke-width="2.5"/><path d="M20 11v11" stroke="#2A2440" stroke-width="3.5" stroke-linecap="round"/><circle cx="20" cy="28.5" r="2.2" fill="#2A2440"/></svg></button></p>
-        <ul class="tropes" aria-label="Tropes">
-          <li class="main">Instant chemistry</li>
-          <li class="main">Opposites attract</li>
-          <li class="main">Forced proximity</li>
-          <li>Messy meet-cute</li>
-          <li>Type-A heroine</li>
-          <li>Wedding season</li>
-          <li>One bed</li>
-          <li>Found family</li>
-          <li>Dual POV</li>
-          <li>OCD rep, written with care</li>
-        </ul>
-      </div>
-      <blockquote class="excerpt">
-        <p>"There are signs along the way, if you prove able to read them."</p>
-        <footer>Lila, to the man now wearing her raspberry filling</footer>
-      </blockquote>
-    </div>
-  </section>
-  <section id="explore" class="explore">
-    <div class="wrap">
-      <h2>Step inside the book</h2>
-      <ul>
-        <li><a href="/quiz/"><h3>Are you a Lila or a Nate?</h3><p>Eight questions. One very messy cake tasting. Find out which of them you'd be.</p></a></li>
-        <li><a href="/kathleen-and-joel/"><h3>You're invited</h3><p>Kathleen and Joel's wedding website, planned down to the last detail (and one late guest).</p></a></li>
-        <li><a href="/down-to-the-details/"><h3>Down to the Details</h3><p>Lila's wedding planning business. Your dream day, down to the last detail.</p></a></li>
-        <li><a href="/tasting/"><h3>The cake tasting</h3><p>Pick your slice at Crumb Together Cafe and see what it says about you.</p></a></li>
-        <li><a href="/kats-text/"><h3>The text that started it</h3><p>The message Nate was reading when he walked into a tray of cake.</p></a></li>
-        <li><a href="/signs/"><h3>The sign hunt</h3><p>Five hidden caution signs. Find them all to unlock a peek from Nate's side.</p></a></li>
-        <li><a href="/reading-room/"><h3>The Reading Room</h3><p>Reading lists from Lucy's own shelf: cozy series, tropes, and where to start with her favorite authors.</p></a></li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="community" class="community">
-    <div class="wrap">
-      <h2>Come for the stories. Stay for the people.</h2>
-      <p class="intro">Lucy believes books are better shared. Letters from Hartfield is less of a mailing list and more of a front porch, and everyone on it gets a seat.</p>
-      <ul class="perks">
-        <li><h3>Help shape the book</h3><p>Vote on small details as the story comes together, like what Lila's wedding day emergency box should never be without.</p></li>
-        <li><h3>Talk tropes with Lucy</h3><p>Reply to any letter. She reads every one, and your favorite tropes might show up in a future story.</p></li>
-        <li><h3>Read it first</h3><p>Sneak peeks, the title and cover reveal before anyone else, and first dibs on advance reader copies.</p></li>
-        <li><h3>Get featured</h3><p>Reader shout-outs, favorite-trope roundups, and book recommendations from the community.</p></li>
-      </ul>
-      <p><a class="btn btn-solid" href="#join">Save my seat</a></p>
-    </div>
-  </section>
-
-  <section id="about" class="about">
-    <div class="wrap"><div class="prose">
-      <h2>About Lucy</h2>
-      <p>Lucy Hartfield writes romance for readers who love sharp banter, soft hearts, and a happily ever after that feels earned. Her stories are about imperfect people finding love, and the communities that hold them up along the way.</p>
-      <p>She believes books are meant to be shared: passed between friends, argued about in group chats, and read far too late into the night. Her debut, an opposites-attract romantic comedy set in the world of weddings, is on its way.</p>
-      <p><a href="/about/">More about Lucy</a></p>
-    </div></div>
-  </section>
-  <section id="follow" class="follow">
-    <div class="wrap">
-      <h2>Come say hello</h2>
-      <ul class="socials">
-        <li><a href="https://www.tiktok.com/@lucyhartfieldstories" rel="me"><span class="icon" aria-hidden="true"><i class="fa-brands fa-tiktok"></i></span><span class="label">TikTok</span></a></li>
-        <li><a href="https://www.instagram.com/lucyhartfieldstories" rel="me"><span class="icon" aria-hidden="true"><i class="fa-brands fa-instagram"></i></span><span class="label">Instagram</span></a></li>
-        <li><a href="https://www.threads.com/@lucyhartfieldstories" rel="me"><span class="icon" aria-hidden="true"><i class="fa-brands fa-threads"></i></span><span class="label">Threads</span></a></li>
-        <li><a href="https://bsky.app/profile/lucyhartfield.com" rel="me"><span class="icon" aria-hidden="true"><i class="fa-brands fa-bluesky"></i></span><span class="label">Bluesky</span></a></li>
-        <li><a href="https://www.pinterest.com/lucyhartfieldstories" rel="me"><span class="icon" aria-hidden="true"><i class="fa-brands fa-pinterest-p"></i></span><span class="label">Pinterest</span></a></li>
-        <li><a href="https://www.youtube.com/@LucyHartfield" rel="me"><span class="icon" aria-hidden="true"><i class="fa-brands fa-youtube"></i></span><span class="label">YouTube</span></a></li>
-        <li><a href="https://www.goodreads.com/user/show/204525064-lucy-hartfield" rel="me"><span class="icon" aria-hidden="true"><i class="fa-brands fa-goodreads-g"></i></span><span class="label">Goodreads</span></a></li>
-        <li><a href="https://app.thestorygraph.com/profile/lucyhartfield" rel="me"><span class="icon" aria-hidden="true"><i class="fa-solid fa-book-open"></i></span><span class="label">StoryGraph</span></a></li>
-      </ul>
-      <p class="contact">For everything else: <a href="mailto:hello@lucyhartfield.com">hello@lucyhartfield.com</a></p>
     </div>
   </section>
 </main>
+<script>
+document.querySelectorAll('#cakes button').forEach(function(b){ b.addEventListener('click', function(){
+  document.querySelectorAll('#cakes button').forEach(function(x){ x.classList.remove('on'); }); b.classList.add('on');
+  document.querySelectorAll('.plate').forEach(function(p){ p.classList.toggle('on', p.dataset.p===b.dataset.c); });
+}); });
+</script>
 <footer class="site">
   <div class="wrap">
     <div class="foot-cols">
