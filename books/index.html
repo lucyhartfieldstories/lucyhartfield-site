@@ -103,6 +103,7 @@
     <a class="brand" href="/">Lucy Hartfield</a>
     <ul>
         <li><a class="navlink" href="/books/" aria-current="page">Books</a></li>
+        <li><a class="navlink" href="/ocd-representation/">OCD Rep</a></li>
         <li><a class="navlink" href="/reading-room/">Reading Room</a></li>
         <li><a class="navlink" href="/letters/">Letters</a></li>
         <li><a class="navlink" href="/about/">About</a></li>
@@ -139,7 +140,7 @@
           <li>One bed</li>
           <li>Found family</li>
           <li>Dual POV</li>
-          <li>OCD rep, written with care</li>
+          <li>{'<a href="/ocd-representation/">OCD rep, written with care</a>' if __import__("os").environ.get("OCD_LIVE")=="1" else "OCD rep, written with care"}</li>
         </ul>
       </div>
       <div>

@@ -557,6 +557,13 @@
   .myths strong { display: block; color: var(--berry-deep); margin-bottom: 0.3rem; }
   .myths p { margin: 0; color: var(--ink-soft); font-size: 1rem; }
   @media (max-width: 640px) { .myths { grid-template-columns: 1fr; } }
+  .ocd-note { font-size: .95rem; color: var(--ink-soft); border-left: 3px solid var(--vine); padding-left: .9rem; }
+  .ellie-todo { background: #FFEC96; padding: .8rem 1rem; border-radius: 8px; font-weight: 700; }
+  .ocd-tag { display: inline-block; font-size: .78rem; font-weight: 700; color: var(--vine); background: #EEF2F7; border-radius: 99px; padding: .1rem .55rem; margin-left: .3rem; }
+  .gloss { display: grid; gap: .8rem; margin: 1rem 0 1.5rem; }
+  .gloss div { border-bottom: 1px solid var(--blush); padding-bottom: .7rem; }
+  .gloss dt { font-weight: 700; color: var(--berry-deep); }
+  .gloss dd { margin: .2rem 0 0; color: var(--ink-soft); }
   .tropes a { color: inherit; }
 
   /* Hidden sticky notes */
