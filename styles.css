@@ -423,7 +423,7 @@
   .hunt-reward p.who { font-family: var(--body); font-size: 1rem; color: var(--ink-soft); }
   .hunt-hint { color: var(--ink-soft); }
 
-  /* Kathleen & Joel wedding site */
+  /* Kat & Joel wedding site */
   .wed-hero { background: var(--blush); text-align: center; padding: clamp(3rem, 8vw, 5.5rem) 0; }
   .wed-hero .mono { font-family: var(--display); font-size: clamp(1.4rem, 3vw, 1.8rem); color: var(--vine); margin: 0 0 0.6rem; }
   .wed-hero h1 { font-family: var(--display); font-weight: 400; color: var(--berry-deep); font-size: clamp(3rem, 9vw, 6rem); line-height: 0.95; margin: 0 0 1rem; }
@@ -574,7 +574,7 @@
   .sn .by { display: block; margin-top: .5rem; font-weight: 700; }
   .pagehead .sn { margin-top: 1rem; }
 
-  /* Down to the Details */
+  /* Dream Details */
   .dtd-hero { background: #F4EFE6; text-align: center; padding: clamp(3rem, 8vw, 5rem) 0; border-bottom: 1px solid #E6DCCB; }
   .dtd-hero .co { font-family: var(--display); font-size: clamp(2.6rem, 7.5vw, 4.6rem); color: #4F5B45; margin: 0; line-height: 1; }
   .dtd-hero .motto { font-family: var(--display); font-size: clamp(1.2rem, 2.6vw, 1.5rem); color: #2A2440; margin: .9rem 0 0; }
