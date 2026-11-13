@@ -25,3 +25,6 @@
 ## The world of the book
 - [Welcome to Holloway](https://lucyhartfield.com/holloway/): a visitor's guide to the fictional Midwest town in Lucy Hartfield's debut rom-com
 - [Holloway Hearth Cafe](https://lucyhartfield.com/holloway-hearth/): Henry's bakery and the characters' drink orders
+- [Help Lila with the seating chart](https://lucyhartfield.com/seating-chart/): a wedding seating puzzle using rules from the book
+- [Lila's phone](https://lucyhartfield.com/lilas-phone/): the text messages between Lila and Nate from chapter ten
+- [Nate's garden](https://lucyhartfield.com/nates-garden/): a tiny gardening game based on Nate's garden
